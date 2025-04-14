@@ -23,19 +23,21 @@ body {
 }
 
 .main-navigation ul {
+    display: flex;
     color: #000;
 }
 
 .main-navigation ul li {
     list-style-type: none;
-    padding: 0 28px;
+    padding: 0 25px;
 }
 
 .main-navigation ul li a {
     display: block;
     color: #000;
     text-decoration: none;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 .main-navigation ul li a:hover {
@@ -46,21 +48,24 @@ body {
 main .content-body {
     background-color: #FAFAFA;
     padding: 20rem 0;
-    text-align: center;
+    justify-content: center;
 }
 
 main .content-body #landing-message {
     width: 80%;
     background-color: #FFF4B2;
     font-size: 30px;
-    border-radius: 7px;
+    border-radius: 10px;
+    text-align: center;
 }
 
 main .content-body #access-resources {
     background-color: #A8D5BA;
-    width: 80px;
+    width: 120px;
     font-size: 20px;
-    border-radius: 7px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
 }
 
 .footer {
@@ -83,18 +88,19 @@ main .content-body #access-resources {
 }
 
 .footer-row {
-    padding: 10px 15px;
+    padding: 10px 0;
     padding-bottom: 20px;
     width: 20%;
+    justify-content: left;
 }
 
 .footer-row .social-links a {
     display: inline-block;
-    height: 50px;
-    width: 50px;
+    height: 35px;
+    width: 35px;
     background-color: #fff;
     margin: 5px 10px 10px 5px;
-    line-height: 50px;
+    line-height: 35px;
     text-align: center;
     border-radius: 50%;
     color: #000000;
