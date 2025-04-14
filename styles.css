@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.site-container {
+    width: 90%;
+    padding: 2rem 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-header {
+    background-color: #ffffff;
+    color: #000000;
+    width: 100%;
+}
+
+.site-header .logo img {
+    height: 40px;
+}
+
+.main-navigation {
+    width: 85%;
+    display: flex;
+}
+
+.main-navigation ul {
+    padding: 0 3rem;
+    display: flex;
+    color: #000;
+}
+
+.main-navigation ul li {
+    list-style-type: none;
+    margin-left: 20px;
+    padding: 0 28px;
+}
+
+.main-navigation ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.main-navigation ul li a:hover {
+    color: #1e5afc;
+    transition: all 0.2s ease;
+}
+
+main .content-body {
+    background-color: #ececec;
+    padding: 20rem 0;
+    text-align: center;
+}
+
+.footer {
+    background-color: #ffffff;
+    color: #000000;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 3rem;
+}
+
+.footer-container {
+    padding: 10px 15px;
+    border-top: 3px solid #000;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-row {
+    padding: 10px 15px;
+    padding-bottom: 20px;
+    width: 20%;
+}
+
+.footer-row .social-links a {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    margin: 5px 10px 10px 5px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    color: #000000;
+    border: 1px solid #000;
+    transition: all 0.3s ease;
+}
+
+.footer-row .social-links a:hover{
+    background-color: #1e5afc;
+    color: #ffffff;
+    border: 1px solid #1e5afc;
+    transition: all 0.3s ease;
+}
+
+#footer-logo-section {
+    width: 10%;
+    padding: 0;
+}
+
+#footer-logo {
+    height: 12rem;
+}
+
+#footer-text {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    padding: 1rem 1rem;
+    padding-right: 10rem;
+}
