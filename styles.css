@@ -21,11 +21,6 @@ body {
     height: 40px;
 }
 
-.main-navigation {
-    width: 85%;
-    display: flex;
-}
-
 .main-navigation ul {
     padding: 0 3rem;
     display: flex;
@@ -39,6 +34,7 @@ body {
 }
 
 .main-navigation ul li a {
+    display: block;
     color: #000;
     text-decoration: none;
     font-size: 20px;
@@ -46,7 +42,7 @@ body {
 
 .main-navigation ul li a:hover {
     color: #1e5afc;
-    transition: all 0.2s ease;
+    transition: all 0.4s ease;
 }
 
 main .content-body {
