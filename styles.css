@@ -90,7 +90,6 @@ main .content-body #access-resources {
 
 .row {
     width: 100%;
-    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -103,11 +102,11 @@ main .content-body #access-resources {
 
 .footer-row .social-links a {
     display: inline-block;
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
     background-color: #fff;
-    margin: 5px 10px 10px 5px;
-    line-height: 35px;
+    margin: 5px 5px 5px 5px;
+    line-height: 40px;
     text-align: center;
     border-radius: 50%;
     color: #000000;
@@ -116,9 +115,9 @@ main .content-body #access-resources {
 }
 
 .footer-row .social-links a:hover{
-    background-color: #1e5afc;
+    background-color: #4D64FF;
     color: #ffffff;
-    border: 1px solid #1e5afc;
+    border: 1px solid #4D64FF;
     transition: all 0.3s ease;
 }
 
