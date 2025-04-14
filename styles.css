@@ -30,6 +30,7 @@ body {
 .main-navigation ul li {
     list-style-type: none;
     padding: 0 25px;
+    padding-right: 0;
 }
 
 .main-navigation ul li a {
@@ -45,11 +46,14 @@ body {
     transition: all 0.3s ease;
 }
 
+main {
+    width: 100%;
+}
+
 main .content-body {
     background-color: #FAFAFA;
     padding: 1rem 1rem;
     display: flex;
-    justify-content: center;
 }
 
 main .content-body #landing-message {
