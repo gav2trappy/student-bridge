@@ -6,7 +6,7 @@ body {
 }
 
 .site-container {
-    width: 90%;
+    width: 100%;
     padding: 1rem 3rem;
     display: flex;
     justify-content: space-between;
@@ -19,7 +19,7 @@ body {
 }
 
 .site-header .logo img {
-    height: 80px;
+    height: 70px;
 }
 
 .main-navigation ul {
@@ -29,21 +29,22 @@ body {
 
 .main-navigation ul li {
     list-style-type: none;
-    padding: 0 25px;
-    padding-right: 0;
+    padding: 0 20px;
 }
 
 .main-navigation ul li a {
     display: block;
     color: #000;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 300;
     font-size: 18px;
+    transition: all 0.3s ease;
 }
 
 .main-navigation ul li a:hover {
     color: #4D64FF;
     transition: all 0.3s ease;
+    font-weight: 500;
 }
 
 main {
@@ -53,7 +54,9 @@ main {
 main .content-body {
     background-color: #FAFAFA;
     padding: 1rem 1rem;
-    display: flex;
+    display: block;
+    justify-content: center;
+    margin: auto;
 }
 
 main .content-body #landing-message {
@@ -62,10 +65,12 @@ main .content-body #landing-message {
     font-size: 30px;
     border-radius: 15px;
     text-align: center;
+    margin: auto;
 }
 
 main .content-body p {
     font-size: 20px;
+    margin: auto;
 }
 
 main .content-body #access-resources {
@@ -77,6 +82,7 @@ main .content-body #access-resources {
     text-align: center;
     font-weight: 500;
     border: none;
+    margin: auto;
 }
 
 .footer {
@@ -94,7 +100,7 @@ main .content-body #access-resources {
 
 .row {
     width: 100%;
-    flex-wrap: wrap;
+    display: flex;
     justify-content: space-between;
 }
 
