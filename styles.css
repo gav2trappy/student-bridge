@@ -71,6 +71,7 @@ main .content-body #landing-message {
 main .content-body p {
     font-size: 20px;
     margin: auto;
+    text-align: center;
 }
 
 main .content-body #access-resources {
@@ -83,6 +84,7 @@ main .content-body #access-resources {
     font-weight: 500;
     border: none;
     margin: auto;
+    text-align: center;
 }
 
 .footer {
